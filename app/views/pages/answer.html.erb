@@ -1,0 +1,11 @@
+<h1>Stupid Coach says:</h1>
+<div>
+    <div class="banner">
+        <h2>Question: <%= @question.capitalize%></h2>
+
+    </div>
+    <div><%= @answer%></div>
+</div>
+
+
+<%= link_to "ask", ask_path, class:"btn btn-primary"%>
